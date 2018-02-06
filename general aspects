@@ -1,0 +1,49 @@
+*/ General observations about scala... how to run it from the shell, the style in the basic synta, and stuff like that.
+/*
+
+Basic Syntax
+
+Class Names: always start with a Upper case, e.g. class Myfisrclass
+
+Methods names: always start with lower case, and every name in it should star with upper case, e.g. def myMethodName()
+
+Program file name: should always be the exact match with the object name; appending ".scala"
+
+Start of every scala program:  it is mandatory to start with "def main(args: Array[string])"
+
+Identifier: variables, objects, whatever shoul start with a letter or u
+
+nderbar _, other way it's illegal
+
+Operator identifier: this is some kind of operator, with cousins in java, culd be +  ++  ::: <?>
+
+Mixed identifier: an aalphanumeric indentifier, follow by _ and an operator, by example: unary_+ , myvar_=
+
+Literal idenfier: holly shit, wht this means?arbitraty string enclosed by back ticks, by example: `x` `<clinit>`
+
+Literal: it's a value that could be asssign to a variable or any pther thing, by example, any number is a literal (3, 5, 6)
+  , character literal is enclosed by simple quotes 'hay', string literal double-quotes "hello world", and multi-line
+  strings by triple-quote
+  """ Que quremos,
+  soluciones
+  Que os da?. """
+  
+  
+
+/* Pakages
+
+/* declaration in the beginnning of the program */
+package com.liftcode.stuff
+
+/* importing the content of a package /*
+import scala.xml._
+
+/* importing a class or object from a package /*
+import scala.collection.mutale.HashMap
+
+/* you can import several elemnts from a package /*
+import scala.collection.inmutable.{TreeMap, TreeSet}
+
+
+
+
