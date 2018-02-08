@@ -1,7 +1,11 @@
 */ General observations about scala... how to run it from the shell, the style in the basic synta, and stuff like that.
 /*
 
-Basic Syntax
+##################################################################################
+########################       Basic Syntax        ###############################
+##################################################################################
+
+
 
 Class Names: always start with a Upper case, e.g. class Myfisrclass
 
@@ -29,7 +33,49 @@ Literal: it's a value that could be asssign to a variable or any pther thing, by
   Que os da?. """
   
   
+  
+ #+++++++++++++++++++++++++++++++ Escape sequences +++++++++++++++++++++++++++++++++++
+  
+ Allows to introduce variation while printing a sentence
+ 
+ \t -> horizontal tab
+ 
+ 
+ 
+  
+#+++++++++++++++++++++++++++++++    Variables     +++++++++++++++++++++++++++++++++++
+  
+ There are two main types of variavles, the ones you can change var, and the immutable val, they are declared initially  as
+ var var_name :type;
+ val val_name :type;
+ 
+ where type clould be: String, Int, Boolean, Double, Float
+ 
+ Could be stated several variables at once
+ 
+ val (val_name1: Int, val_name2: String) =Pair(40, "Singer")
+ 
+ If let the inference works, then just should wirte
+ val (val_name1, val_name2) =Pair(40, "Singer")
+ 
+ 
+ 
+ 
+ 
+ 
+##################################################################################
+########################   Using with  the shell   ###############################
+##################################################################################
+ 
+To call a scala funtions from the shell, you must
 
+\>scalac object_name.scala
+\>scala oject_name
+
+object_prueba2
+ 
+ 
+ +++++++++++++++++++++++++++++++     Packages     +++++++++++++++++++++++++++++++++++
 /* Pakages
 
 /* declaration in the beginnning of the program */
@@ -43,6 +89,9 @@ import scala.collection.mutale.HashMap
 
 /* you can import several elemnts from a package /*
 import scala.collection.inmutable.{TreeMap, TreeSet}
+
+
+
 
 
 
