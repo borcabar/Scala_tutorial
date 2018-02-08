@@ -60,8 +60,12 @@ Literal: it's a value that could be asssign to a variable or any pther thing, by
  
  
  
+#+++++++++++++++++++++++++++++++    Classes     +++++++++++++++++++++++++++++++++++
  
- 
+A class define some variables, and methods; those are variables that when feeded are called objects, 
+while the methos are defined usually as fuciton
+
+
  
 ##################################################################################
 ########################   Using with  the shell   ###############################
