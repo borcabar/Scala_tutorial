@@ -96,7 +96,18 @@ import scala.collection.inmutable.{TreeMap, TreeSet}
 
 
 
+##################################################################################
+########################      Download a page      ###############################
+##################################################################################
 
+import scala.io.Source
 
-
+object prueba_download {
+     def main(args: Array[String]) {
+       val html = Source.fromURL("http://www.boe.es")
+       val s = html.mkString
+       println(s)
+       
+   }
+}
 
